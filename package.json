@@ -1,0 +1,37 @@
+{
+  "name": "boolean-searcher",
+  "version": "0.0.1",
+  "description": "Creates a boolean-searcher object to identify matches in a given piece of text. Given a boolean search string, boolean-searcher can subsequently search text for matches against the search string.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --ui bdd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nos78/boolean-searcher.git"
+  },
+  "keywords": [
+    "boolean",
+    "search",
+    "keywords",
+    "parse",
+    "parser",
+    "text",
+    "string",
+    "helper"
+  ],
+  "author": "\"Noscere \\ <noscere@codin.gq\\> (https://codin.gq)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Nos78/boolean-searcher/issues"
+  },
+  "homepage": "https://github.com/Nos78/boolean-searcher#readme",
+  "devDependencies": {
+    "mocha": "^10.1.0"
+  },
+  "dependencies": {
+    "application-errors": "^1.0.1",
+    "uuid": "^9.0.0",
+    "winston": "^3.8.2"
+  }
+}
